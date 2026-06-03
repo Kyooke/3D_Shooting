@@ -23,8 +23,6 @@ void PlayScene::Initialize()
 
 void PlayScene::Update()
 {
-	new Enemy* =enemy();
-
 	timer -= 1;
 	if (timer == 0)
 	{
